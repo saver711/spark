@@ -997,6 +997,6 @@ p {
   z-index: 10;
   cursor: pointer; }
   .colors input {
-    display: inline-block;
+    display: block;
     transform: rotate(90deg);
-    width: 20px; }
+    width: 30px; }
