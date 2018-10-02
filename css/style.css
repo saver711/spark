@@ -294,10 +294,10 @@ p {
       top: 0;
       width: 100%;
       height: 100%;
-      background: -webkit-gradient(linear, left top, right top, from(rgba(var(--primary-color), 0.6)), to(rgba(var(--secondary-color), 0.6)));
-      background: -webkit-linear-gradient(left, rgba(var(--primary-color), 0.6), rgba(var(--secondary-color), 0.6));
-      background: -o-linear-gradient(left, rgba(var(--primary-color), 0.6), rgba(var(--secondary-color), 0.6));
-      background: linear-gradient(to right, rgba(var(--primary-color), 0.6), rgba(var(--secondary-color), 0.6));
+    background: -webkit-gradient(linear, left top, right top, from(rgba(57, 13, 167, 0.8)), to(rgba(129, 54, 149, 0.8)));
+    background: -webkit-linear-gradient(left, rgba(57, 13, 167, 0.8), rgba(129, 54, 149, 0.8));
+    background: -o-linear-gradient(left, rgba(57, 13, 167, 0.8), rgba(129, 54, 149, 0.8));
+    background: linear-gradient(to right, rgba(57, 13, 167, 0.8), rgba(129, 54, 149, 0.8));
       z-index: 1; }
     .header__photo img {
       -webkit-transform: rotate(20deg);
