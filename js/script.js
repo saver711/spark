@@ -38,10 +38,13 @@ $(function () {
     });
     
     ////
-    $(window).on("resize", function () {
-        $(".container").css({
-            overflowX: "hidden"
-        });
+    var myVar1 = "--primary-color",
+        myVar2 = "--secondary-color";
+    $("input.color1").on("change", function (e) {
+        document.documentElement.style.setProperty(myVar1, e.target.value);
+    });
+    $("input.color2").on("change", function (e) {
+        document.documentElement.style.setProperty(myVar2, e.target.value);
     });
     
     
